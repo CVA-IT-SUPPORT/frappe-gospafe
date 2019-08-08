@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include gospafe *.css
+recursive-include gospafe *.csv
+recursive-include gospafe *.html
+recursive-include gospafe *.ico
+recursive-include gospafe *.js
+recursive-include gospafe *.json
+recursive-include gospafe *.md
+recursive-include gospafe *.png
+recursive-include gospafe *.py
+recursive-include gospafe *.svg
+recursive-include gospafe *.txt
+recursive-exclude gospafe *.pyc
